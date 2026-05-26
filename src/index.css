@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-primary: #001e40;
+  --color-primary-light: #003366;
+  --color-accent: #007bff;
+  --color-surface-bg: #f9f9fc;
+  --color-kakao: #fee500;
+  --color-kakao-text: #3c1e1e;
+}
+
+html, body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface-bg);
+  color: #1a1c1e;
+  scroll-behavior: smooth;
+}
+
+.image-overlay {
+  background: linear-gradient(0deg, rgba(0, 30, 64, 0.75) 0%, rgba(0, 30, 64, 0.35) 100%);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

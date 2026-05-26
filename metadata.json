@@ -1,0 +1,6 @@
+{
+  "name": "대민창호",
+  "description": "KCC 창호 제작 및 시공 전문업체 대민창호의 공식 랜드마크 웰컴 페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
